@@ -1,5 +1,5 @@
 ## file structure
-if (! file.exists("data")) dir.create("data")
+if (! dir.exists("data")) dir.create("data")
 
 if (!file.exists("data/surveys.csv")) {
     download.file("https://ndownloader.figshare.com/files/2292172",
